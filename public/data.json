@@ -1,0 +1,121 @@
+[
+  {
+    "id": 1,
+    "question": "¿Cuál es la diferencia entre `interface` y `type`?",
+    "answers": [
+      "Un `interface` es una abstracción de un tipo de dato, mientras que un `type` es una definición concreta de un tipo de dato.",
+      "Un `interface` es un tipo de dato primitivo, mientras que un `type` es un tipo de dato compuesto.",
+      "Un `interface` puede tener miembros opcionales, mientras que un `type` no.",
+      "Un `interface` puede tener miembros estáticos, mientras que un `type` no."
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 2,
+    "question": "¿Cuál es la diferencia entre `class` y `interface`?",
+    "answers":
+    [
+      "Un `class` es una abstracción de un tipo de dato, mientras que un `interface` es una definición concreta de un tipo de dato.",
+      "Un `class` es un tipo de dato primitivo, mientras que un `interface` es un tipo de dato compuesto.",
+      "Un `class` puede tener miembros opcionales, mientras que un `interface` no.",
+      "Un `class` puede tener miembros estáticos, mientras que un `interface` no."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 3,
+    "question": "¿Cuál es la diferencia entre `private` y `protected`?",
+    "answers":
+    [
+      "Un miembro `private` solo es accesible dentro de la clase, mientras que un miembro `protected` es accesible dentro de la clase y sus subclases.",
+      "Un miembro `private` solo es accesible dentro de la clase, mientras que un miembro `protected` es accesible dentro de la clase y sus miembros.",
+      "Un miembro `private` solo es accesible dentro de la clase, mientras que un miembro `protected` es accesible dentro de la clase y sus funciones.",
+      "Un miembro `private` solo es accesible dentro de la clase, mientras que un miembro `protected` es accesible dentro de la clase y sus propiedades."
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 4,
+    "question": "¿Cuál es la diferencia entre `readonly` y `const`?",
+    "answers":
+    [
+      "Un miembro `readonly` es una variable inmutable, mientras que un miembro `const` es una variable constante.",
+      "Un miembro `readonly` es una variable inmutable, mientras que un miembro `const` es una función constante.",
+      "Un miembro `readonly` es una variable inmutable, mientras que un miembro `const` es una propiedad constante.",
+      "Un miembro `readonly` es una variable inmutable, mientras que un miembro `const` es un método constante."
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 5,
+    "question": "¿Cuál es la diferencia entre `default` y `optional`?",
+    "answers":
+    [
+      "Un parámetro `default` tiene un valor predeterminado, mientras que un parámetro `optional` no.",
+      "Un parámetro `default` es un parámetro opcional, mientras que un parámetro `optional` no.",
+      "Un parámetro `default` es un parámetro obligatorio, mientras que un parámetro `optional` no.",
+      "Un parámetro `default` es un parámetro de valor, mientras que un parámetro `optional` es un parámetro de referencia."
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 6,
+    "question": "¿Cuál es la diferencia entre `infer` y `any`?",
+    "answers":
+    [
+      "Un tipo `infer` es un tipo de dato indefinido, mientras que un tipo `any` es un tipo de dato que puede ser cualquier cosa.",
+      "Un tipo `infer` es un tipo de dato que se deduce del contexto, mientras que un tipo `any` es un tipo de dato que puede ser cualquier cosa.",
+      "Un tipo `infer` es un tipo de dato primitivo, mientras que un tipo `any` es un tipo de dato compuesto.",
+      "Un tipo `infer` es un tipo de dato que no puede ser asignado a un tipo `any`."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 7,
+    "question": "¿Cuál es la diferencia entre `extends` y `implements`?",
+    "answers":
+    [
+      "La palabra clave `extends` se utiliza para heredar de una clase, mientras que la palabra clave `implements` se utiliza para implementar una interfaz.",
+      "La palabra clave `extends` se utiliza para heredar de una interfaz, mientras que la palabra clave `implements` se utiliza para implementar una clase.",
+      "La palabra clave `extends` se utiliza para heredar de una función, mientras que la palabra clave `implements` se utiliza para implementar una propiedad.",
+      "La palabra clave `extends` se utiliza para heredar de un tipo, mientras que la palabra clave `implements` se utiliza para implementar un valor."
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 8,
+    "question": "¿Cuál es la diferencia entre `static` y `readonly`?",
+    "answers":
+    [
+      "Una variable `static` es accesible desde cualquier parte del código, mientras que una variable `readonly` solo es accesible desde la clase que la define.",
+      "Una variable `static` es una variable mutable, mientras que una variable `readonly` es una variable inmutable.",
+      "Una variable `static` es una variable de clase, mientras que una variable `readonly` es una variable de instancia.",
+      "Una variable `static` es una variable de valor, mientras que una variable `readonly` es una variable de referencia."
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 9,
+    "question": "¿Cuál es la diferencia entre `function` y `class`?",
+    "answers":
+    [
+      "Una función es una abstracción de un tipo de dato, mientras que una clase es una definición concreta de un tipo de dato.",
+      "Una función es un tipo de dato primitivo, mientras que una clase es un tipo de dato compuesto.",
+      "Una función puede tener miembros opcionales, mientras que una clase no.",
+      "Una función puede tener miembros estáticos, mientras que una clase no."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 10,
+    "question": "¿Cuál es la diferencia entre `this` y `super`?",
+    "answers":
+    [
+      "La palabra clave `this` se utiliza para referirse a la instancia actual de una clase, mientras que la palabra clave `super` se utiliza para referirse a la clase padre de una clase.",
+      "La palabra clave `this` se utiliza para referirse a la clase actual, mientras que la palabra clave `super` se utiliza para referirse a la clase padre de una función.",
+      "La palabra clave `this` se utiliza para referirse a la función actual, mientras que la palabra clave `super` se utiliza para referirse a la clase padre de una variable.",
+      "La palabra clave `this` se utiliza para referirse al tipo actual, mientras que la palabra clave `super` se utiliza para referirse al tipo padre de una propiedad."
+    ],
+    "correctAnswer": 0
+  }
+]
